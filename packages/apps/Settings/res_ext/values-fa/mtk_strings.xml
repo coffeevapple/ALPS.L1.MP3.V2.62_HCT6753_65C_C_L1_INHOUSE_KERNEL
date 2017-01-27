@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- AudioProfile Settings start -->
+   <string name="ring_summary">زنگ</string>
+  <string name="ring_vibrate_summary">زنگ و لرزش</string>
+  <string name="silent_summary">فقط بی صدا</string>
+  <string name="meeting_summary">فقط لرزش</string>
+  <string name="outdoor_summary">صدای زنگ بلند و لرزش</string>
+  <string name="audio_profile_reset">بازنشانی</string>
+  <string name="audio_profile_add">افزودن</string>
+  <string name="audio_profile_enable">فعال کردن</string>
+  <string name="audio_profile_rename">تغيير نام</string>
+  <string name="audio_profile_delete">حذف</string>
+  <string name="audio_profile_message_reset">تمام تنظيمات نمايه صوتی به مقادير پيش فرض بازنشانی می شوند</string>
+  <string name="audio_profile_message_rename">لطفاً نام نمايه جديد را وارد کنيد</string>
+  <string name="audio_profile_message_name_error">نام وارد شده تکراری است</string>
+  <string name="audio_profile_message_name_length_wrong">نام حداقل بايد دارای يک کاراکتر باشد</string>
+  <string name="audio_profile_message_delete">نمايه 
+        <xliff:g id="profile">%s</xliff:g> حذف می شود</string>
+  <string name="audio_profile_message_overflow">شما فقط می توانيد 6 نمايه سفارشی داشته باشيد</string>
+  <string name="audio_profile_category_custom_title">نمايه های تعريف شده توسط کاربر</string>
+  <string name="audio_profile_category_predefine_title">نمايه های از پيش تعريف شده</string>
+  <string name="audio_profile_error">خطا</string>
+  <string name="audio_profile_others">اعلان و ساير موارد</string>
+  <string name="general_settings_title">"کلی"</string>
+  <string name="silent_settings_title">سکوت</string>
+  <string name="meeting_settings_title">جلسه</string>
+  <string name="outdoor_settings_title">فضای باز</string>
+  <string name="sound_category_feedback_title">"سیستم"</string>
+  <string name="sound_category_calls_title">"تماس های ورودی"</string>
+  <string name="voice_call_title">آهنگ زنگ تماس صوتی</string>
+  <string name="voice_call_summary">"آهنگ پيش فرض را برای تماسهای صوتی تنظيم کنيد"</string>
+  <string name="video_call_title">آهنگ زنگ تماس تصويری</string>
+  <string name="video_call_summary">آهنگ پيش فرض را برای تماسهای تصويری تنظيم کنيد</string>
+  <string name="sip_call_title">زنگ تماس SIP</string>
+  <string name="sip_call_summary">تنظیم زنگ پیش‌فرض تماس‌های SIP</string>
+  <string name="Phone_vibrate_summary">لرزاندن تلفن برای تماسهای ورودی</string>
+  <string name="vibrate_title">لرزش</string>
+  <string name="audio_profile_settings_title">نمايه های صوتی</string>
+  <string name="audio_profile_bes_loudness_summary">تقویت‌کننده میزان صدای بلندگو</string>
+  <string name="sound_enhancement_title">بهبودهای صوتی</string>
+  <string name="music_plus_summary">بهبود دهنده صوتی برای بلندگوی گوشی</string>
+  <string name="lossless_title">حالت BT بدون افت</string>
+  <string name="lossless_summary">صدای BT با کیفیت بالا</string>
+  <string name="lossless_connect_summary">با خاموش کردن حالت BT بدون افت، Wi-Fi تحت تأثیر قرار می گیرد. می خواهید آن را فعال کنید؟</string>
+  <string name="lossless_on">حالت BT بدون افت روشن</string>
+  <string name="lossless_playing">پخش موسیقی بدون افت</string>
+  <string name="lossless_toastmessage">صداهای سیستم از طریق بلندگو پخش خواهد شد</string>
+  <string name="lossless_volume_max">لطفاً میزان صدای سيستم را روی حداکثر نگه دارید</string>
+  <string name="lossless_cannot_found_device">دستگاه losslessBT یافت نشد</string>
+  <string name="audio_profile_bes_surround_title">BesSurround</string>
+  <string name="audio_profile_bes_surround_summary">فراگیر بودن صدا</string>
+  <string name="audio_profile_bes_surround_mode_movie">حالت فیلم</string>
+  <string name="audio_profile_bes_surround_mode_music">حالت موسیقی</string>
+  <string name="zen_mode_option_title_novoice" msgid="6680706009915204785">"هنگام ورود اعلان‌ها"</string>
+  <!-- AudioProfile Settings end -->
+ 
+  <!-- MTK Wi-Fi settings start -->
+   <string name="wifi_no_cert_for_wapi">یافتن گواهی برای نقطه دسترسی اتصال فعلی امکان پذیر نیست</string>
+  <string name="sim_slot">شکاف سیم کارت</string>
+  <string name="eap_sim_slot_0">شیار سیم 1</string>
+  <string name="eap_sim_slot_1">شیار سیم 2</string>
+  <string name="eap_sim_aka_airplanemode">لطفا حالت هواپیما را خاموش کنید تا از EAP-SIM/AKA استفاده کنید</string>
+  <string name="eap_sim_aka_no_sim_error">برای استفاده از EAP-SIM/AKA باید یک سیم کارت قرار دهید</string>
+  <string name="eap_sim_aka_no_sim_slot_selected">برای استفاده از EAP-SIM/AKA باید یک شکاف سیم کارت انتخاب کنید</string>
+  <string name="wifi_security_wapi_certificate">گواهی نامه WAPI</string>
+  <string name="wapi_user_certificate">گواهی کاربر</string>
+  <string name="wapi_as_certificate">گواهی ASE</string>
+  <string name="wifi_hex_password">رمز ورود هگزادسيمال.</string>
+  <string name="wifi_WEP_transmit_key">کليد ارسال</string>
+  <string name="wifi_WEP_secury_key">کليد امنيتی</string>
+  <string name="wifi_tether_auto_disable_title">نقطه اتصال Wi-Fi روشن بماند</string>
+  <string name="wifi_tether_auto_channel_text">خودکار</string>
+  <string name="wifi_tether_auto_channel_width_text">خودکار 20/40 مگاهرتز</string>
+  <string name="wifi_channel">کانال مورد نظر</string>
+  <string name="wifi_channel_width">عرض کانال</string>
+  <string name="wifi_advanced_ipv4_address_title">آدرس IPv4</string>
+  <string name="wifi_advanced_ipv6_address_title">آدرس IPv6</string>
+  <string name="wifi_ipv4_address">آدرس IPv4</string>
+  <string name="wifi_ipv6_address">آدرس IPv6</string>
+  <string name="wifi_ap_auto_join_available">پیوستن خودکار</string>
+  <string name="wifi_ap_auto_join_available_summary">انتخاب خودکار شبکه بهتر‌ Wi-Fi درحین اسکن کردن برای پیوستن در زمان اتصال</string>
+  <!-- MTK Wi-Fi settings end -->
+ 
+  <!-- Wi-Fi hotspot client start -->
+   <string name="wifi_tether_setting_title">تنظیمات اصلی</string>
+  <string name="wifi_tether_wps_connect_title">اتصال WPS</string>
+  <string name="wifi_tether_wps_connect_summary">حالت تنظیم حفاظت یافته Wi-Fi را انتخاب کنید تا ادامه داده شود</string>
+  <string name="wifi_tether_wps_pin_error">پین نامعتبر</string>
+  <string name="wifi_tethering_title">نقطه اتصال Wi-Fi</string>
+  <string name="wifi_ap_wps_dialog_title">اتصال WPS</string>
+  <string name="wifi_ap_wps_mode_title">حالت WPS</string>
+  <string name="wifi_ap_wps_pin_title">تایپ پین از سوی مشتری</string>
+  <string name="wifi_ap_reset_OOB_title">بازنشانی SSID شبکه، حالت امنیتی و رمزعبور به حالت پیش فرض (پیکربندی بیرون دستگاه WPS)</string>
+  <string name="wifi_ap_reset_OOB">بازنشانی OOB</string>
+  <string name="wifi_ap_max_connection_title">حداکثر اتصال</string>
+  <string name="wifi_ap_connected_title">کاربران متصل</string>
+  <string name="wifi_ap_blocked_title">کاربران مسدود</string>
+  <string name="wifi_ap_client_block_title">"مسدود کردن"</string>
+  <string name="wifi_ap_client_unblock_title">رفع مسدودی</string>
+  <string name="wifi_ap_client_details_title">جزئیات</string>
+  <string name="wifi_ap_client_mac_label">آدرس MAC:</string>
+  <string name="wifi_ap_client_ip_label">آدرس IP:‏</string>
+  <string name="wifi_ap_bandwidth_title">مصرف پهنای باند</string>
+  <string name="wifi_ap_bandwidth_enable">فعال سازی کنترل پهنای باند</string>
+  <string name="wifi_ap_bandwidth_chart_title">سرعت تبادل اطلاعات ترافیکی لحظه به لحظه</string>
+  <string name="wifi_ap_bandwidth_chart_summary">سرعت تبادل اطلاعات اپراتور شما بستگی به اندازه گیری گوشی تان ممکن است فرق کند.</string>
+  <string name="wifi_wps_fail_error">راه اندازی Wi-Fi رمزدار، ناموفق بود، دوباره سعی کنید.</string>
+  <string name="wifi_ap_title">آمار</string>
+  <string name="wifi_ap_time_duration">مدت زمان دوره : 
+        <xliff:g id="time">%1$s</xliff:g></string>
+  <string name="wifi_ap_total_data">جمع کل اطلاعات استفاده شده:
+        <xliff:g id="time">%1$s</xliff:g></string>
+  <string name="wifi_ap_no_connected">0 کاربران متصل</string>
+  <string name="wifi_ap_no_blocked">0 کاربران مسدود</string>
+  <!-- Wi-Fi hotspot client end -->
+ 
+  <!-- MTK Beam plus start -->
+   <string name="beam_mgmt_tab_download_title">تماسهای دريافتی</string>
+  <string name="beam_mgmt_tab_upload_title">"3. روی تب اشتراک گذاری کلیک کنید و 'به سایر کاربران شبکه اجازه اتصال به اینترنت از طریق اتصال اینترنت این کامپیوتر را بده'(اگر 'اتصال شبکه خانگی' ظاهر شد، شبکه جدیدا اضافه شده ای که اتصال USB دارد را انتخاب کنید)."</string>
+  <string name="beam_share_mgmt_notification_ticker">سابقه اشتراک گذاری پرتو</string>
+  <string name="beam_share_mgmt_notification_title">سابقه اشتراک گذاری پرتو</string>
+  <string name="beam_share_mgmt_notification_message">"انتخاب کنید تا سابقه اشتراک گذاری پرتو را مشاهده کنید."</string>
+  <string name="beam_share_mgmt_tab_menu_clear">"پاک کردن همه تنظیمات وب سایت؟"</string>
+  <string name="beam_share_open_file_dialog_title">باز کردن فایل امکان پذیر نیست.</string>
+  <string name="beam_share_open_file_unsupported_message">باز کردن فایل امکان پذیر نیست.</string>
+  <string name="beam_share_open_file_not_found_message">"فایل يافت نشد: <xliff:g id="file_name">%1$s</xliff:g></string>
+  <string name="beam_share_transfer_fail_dialog_title">"پرتو ناموفق بود"</string>
+  <string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> نتوانست بطور موفق ارسال شود."</string>
+  <string name="beam_share_resend_dialog_ok_button">"دوباره امتحان کنید"</string>
+  <string name="beam_share_show_received_files_menu">"نمایش فایل‌های دریافتی"</string>
+  <string name="beam_share_history_title">سابقه اشتراک گذاری پرتو</string>
+  <string name="beam_share_clear_confirm_dialog_title">"پاک کردن همه"</string>
+  <string name="beam_share_clear_confirm_dialog_message">همه سابقه پاک شود؟</string>
+  <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> نتوانست بطور موفق دریافت شود."</string>
+  <string name="beam_share_clear_item_dailog_title">"Delete"</string>
+  <string name="beam_share_clear_item_dailog_message">مورد حذف خواهد شد.</string>
+  <!-- MTK Beam plus end -->
+ 
+  <!-- MTK NFC settings start -->
+   <string name="nfc_p2p_mode">حالت P2P</string>
+  <string name="nfc_p2p_mode_summary">ارسال یا دریافت محتوای برنامه</string>
+  <string name="nfc_tag_mode_category">حالت برچسب</string>
+  <string name="nfc_rw_tag_title">خواندن و نوشتن برچسب</string>
+  <string name="nfc_rw_tag_summary">خواندن از یا نوشتن به برچسب</string>
+  <string name="nfc_card_emulation_category_title">حالت شبیه‌سازی کارت</string>
+  <string name="nfc_card_emulation">شبیه‌سازی کارت</string>
+  <string name="card_emulation_settings_category_title">عنصر امنیتی موجود</string>
+  <string name="card_emulation_settings_no_element_found">عنصر امنیتی وجود ندارد</string>
+  <string name="card_emulation_settings_off_text">برای مشاهده عناصر امنیتی موجود، شبیه‌سازی کارت را فعال کنید.</string>
+  <string name="card_emulation_turning_off_text">در حال غیر فعال کردن شبیه سازی کارت...</string>
+  <string name="card_emulation_turning_on_text">در حال فعال‌سازی شبیه سازی کارت...</string>
+  <string name="card_emulation_switch_error_title">خطا</string>
+  <string name="card_emulation_switch_error_message">جابجایی به <xliff:g id="card_mode">%1$s</xliff:g> انجام نگرفت.</string>
+  <string name="card_emulation_sim_not_supported_message"><xliff:g id="sim_description">%1$s</xliff:g> از عملکرد شبیه‌سازی کارت NFC پشتیبانی نمی‌کند.</string>
+  <string name="card_emulation_two_sim_not_supported_message">سیم کارت۱، سیم کارت ۲ از قابلیت شبیه سازی سیم کارت پشتیبانی نمی کند.</string>
+  <string name="nfc_hce_pay_summary">استفاده از دستگاه به عنوان Google wallet، کارت اعتباری و غیره برای ضربه زدن و پرداخت.</string>
+  <!-- MTK NFC settings end -->
+ 
+  <!-- MTK WIFI Passpoint start -->
+   <string name="passpoint_summary">اتصال خودکار به نقاط دسترسی دارای passpoint</string>
+  <string name="passpoint_append_summary">(از طریق Passpoint)</string>
+  <string name="passpoint_config_credential_type">نوع اطلاعات کاربری</string>
+  <string name="passpoint_config_eap_method">"روش EAP"</string>
+  <string name="passpoint_supported">پشتیبانی می شود</string>
+  <string name="passpoint_username_pw">نام کاربری/گذرواژه</string>
+  <string name="passpoint_certificate">گواهي</string>
+  <!-- MTK WIFI Passpoint end -->
+ 
+  <!-- MTK WFD start -->
+   <string name="wfd_change_resolution_menu_title">تغییر وضوح</string>
+  <string name="wfd_sink_summary">قابل کشف توسط سایرین</string>
+  <string name="wfd_device_category">فهرست دستگاه‌ها</string>
+  <string name="wfd_sink_toast_enjoy">از فیلمبرداری از صفحه نمایش دستگاه دیگر لذت ببرید</string>
+  <string name="wfd_sink_toast_disconnect">فیلمبرداری از صفحه نمایش قطع شد</string>
+  <string name="wfd_sink_disconnecting">در حال قطع اتصال...</string>
+  <string name="wfd_sink_guide_btn">دریافت کنید</string>
+  <string name="wfd_sink_guide_title">چگونگی خروج؟</string>
+  <string name="wfd_sink_guide_content">به مدت <xliff:g id="seconds">%s</xliff:g> ثانیه روی صفحه فشار دهید تا از نمایش دستگاه دیگر خارج شوید.</string>
+  <!-- MTK WFD end -->
+ 
+  <!-- MTK Storage Settings start -->
+   <string name="mtp_transfer_unmount_error_text">در حین انتقال فایل نمی توان کارت SD را از نصب خارج کرد</string>
+  <string name="mtp_transfer_erase_error_text">در حین انتقال فایل نمی توان کارت SD را پاک کرد</string>
+  <string name="launch_error">"موفق به اجرای برنامه نشدم!"</string>
+  <string name="dlg_confirm_unmount_usb_title" product="default">اتصال حافظه USB قطع شود؟</string>
+  <string name="dlg_confirm_unmount_usb_text" product="default">در صورت جدا کردن حافظه USB، برخی از برنامه هایی که از آنها استفاده می کنید متوقف می شوند و تا زمانی که کارت SD را جدا نکنید امکان استفاده از آنها وجود نخواهد داشت.</string>
+  <string name="dlg_error_unmount_usb_text" product="default">نمی توان حافظه ذخیره USB را از نصب خارج کرد. در فرصتی دیگر دوباره امتحان کنید.</string>
+  <string name="unmount_usb_inform_text" product="default">اتصال حافظه USB قطع می شود.</string>
+  <string name="sd_eject_usbstorage" product="default">"قطع اتصال حافظه USB"</string>
+  <string name="sd_eject_usbstorage_summary" product="default">"قطع اتصال حافظه USB داخلی"</string>
+  <string name="sd_mount_usbstorage" product="default">"اتصال حافظه USB"</string>
+  <string name="sd_insert_usb_summary" product="default">"قرار دادن حافظه USB برای اتصال"</string>
+  <string name="usb_ums_title">حافظه USB</string>
+  <string name="usb_ums_summary">"XP توصیه می شود. به شما امکان انتقال فایلها بین رایانه و حافظه ذخیره USB آندرویدتان را می دهد."</string>
+  <string name="usb_charge_title">فقط شارژ</string>
+  <string name="usb_connect_as_cdrom_category">"اتصال به عنوان CD-ROM"</string>
+  <string name="usb_charge_summary">تمام عملکردهای USB را متوقف کنید. این کار باعث افزایش سرعت شارژ USB و کاهش مصرف برق می شود.</string>
+  <string name="akp_installer_settings_title">نصب کننده APK</string>
+  <string name="akp_installer_settings_summary">نصب APK از حافظه ذخیره تلفن و کارت SD</string>
+  <string name="usb_bicr_title">CD-ROM داخلی</string>
+  <string name="usb_bicr_summary">سی‏دی رام مجازی حاوی نرم‏افزارهای مفيد را نمايش دهيد.</string>
+  <string name="select_memory">دیسک نوشتن پیش فرض</string>
+  <string name="dlg_mount_external_sd_title" product="default">کارت SD نصب شود؟</string>
+  <string name="dlg_mount_external_sd_summary" product="default">اگر کارت SD را نصب کنید، برخی از برنامه هایی که در حال استفاده از آنها هستید متوقف خواهند شد.</string>
+  <!-- MTK Storage Settings end -->
+ 
+  <!-- MTK HDMI start -->
+   <string name="hdmi_settings">تنظیمات HDMI</string>
+  <string name="hdmi_settings_summary">برای پیکربندی HDMI کلیک کنید</string>
+  <string name="hdmi_audio_toggler">صدا</string>
+  <string name="hdmi_video_toggler">تصوير</string>
+  <string name="hdmi_video_resolution">وضوح ویدئو</string>
+  <string name="hdmi_auto">خودکار</string>
+  <string name="hdmi_scale_control">تنظیمات مقیاس فیلم</string>
+  <string name="hdmi_scale_no_scale">بدون مقیاس</string>
+  <string name="hdmi_scale_scale_down">کاهش مقیاس <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+  <string name="hdmi_audio_output">خروجی صدا</string>
+  <string name="hdmi_audio_output_stereo">استريو</string>
+  <string name="hdmi_audio_output_multi_channel">کانال چندگانه</string>
+  <!-- MTK HDMI end -->
+ 
+  <!-- MTK Display Settings start -->
+   <string name="landscape_launcher_title">راه انداز منظره</string>
+  <string name="landscape_launcher_none">هيچ</string>
+  <string name="display_settings_scences_title">صحنه‏ها</string>
+  <string name="default_name">پيش فرض</string>
+  <string name="custom_theme_name">[%1$s] جديد</string>
+  <string name="loading">در حال بارگذاری...</string>
+  <string name="auto_backlight_title">نور پس زمینه کم مصرف</string>
+  <string name="auto_backlight_summary">تعدیل خودکار نور پس زمینه برای صرفه جویی در باتری</string>
+  <string name="display_personalize">سفارشی‌سازی</string>
+  <string name="display_default">"نمایش"</string>
+  <string name="clear_motion_summary">بهبود دهنده پخش فیلم</string>
+  <string name="on_text">"فعال"</string>
+  <string name="off_text">"غیرفعال"</string>
+  <string name="mira_vision_summary">ارائه‌دهنده بهترین جلوه های بصری</string>
+  <!-- MTK Display Settings end -->
+ 
+  <!--MTK Security Settings start -->
+   <string name="voice_unlock_backup_info_summary">اگر بازكردن قفل صوتی صدای شما را شناسایی نکرد، می خواهيد چگونه قفل را باز كنيد؟</string>
+  <string name="unlock_set_unlock_mode_voice_weak">باز کردن صوتی قفل</string>
+  <string name="mtk_lock_screen_notifications_title">پیغام های قفل صفحه</string>
+  <string name="lock_screen_notifications_summary">نمایش پیغام ها روی قفل صفحه نمایش</string>
+  <string name="lock_screen_style_title">روش قفل صفحه</string>
+  <string name="current_suffix">"(فعلي)"</string>
+  <string name="lockscreen_style_default_desc">"دسترسی فوری به برنامه ها در صفحه قفل"</string>
+  <string name="security_not_set">تنظيمات امنیتی انجام نشده است</string>
+  <string name="voice_ui_title">کنترل صدا</string>
+  <!--MTK Security Settings end -->
+ 
+  <!-- MTK Wireless settings start -->
+   <string name="pch_toggle_title">اولويت انتقال GPRS</string>
+  <string name="pch_data_prefer_summary_off">اولويت داده</string>
+  <string name="pch_call_prefer_summary_on">اولويت تماس</string>
+  <string name="pch_warning_message">سرعت انتقال داده رد می شود.</string>
+  <string name="tethered_ipv6_title">تنظیمات نقطه اتصال و مهار زنی</string>
+  <string name="tethered_ipv4v6">(IPv6 قابل استفاده است)</string>
+  <string name="tethered_ipv6">(فقط IPv6 قابل استفاده است)</string>
+  <string name="tethered_ipv4">(IPv6 قابل استفاده نیست)</string>
+  <string name="tethering_apn_settings_title">تنظیمات APN</string>
+  <string name="tethering_apn_settings_summary">پیکربندی APN برای تثرینگ</string>
+  <string name="usb_tether_type_title">نوع تترینگ USB</string>
+  <string name="usb_tethering_select_version">نسخه سیستم PC را انتخاب کنید</string>
+  <string name="apn_port_warning">پورت معتبر باید بین 1 تا 65535!</string>
+  <string name="apn_predefine_change_dialog_notice">آیا از ذخیره کردن مطمئن هستید؟ ایجاد تغییرات در APN های پیش فرض ممکن است موجب مشکلات اتصال شود!</string>
+  <string name="lockdown_vpn_already_connected">همیشه برای اتصال روی VPN فعال سازی شده است.</string>
+  <!-- MTK Wireless settings end -->
+ 
+  <!-- MTK Feature MISC start -->
+   <string name="schedule_power_on_off_settings_title">زمان بندی روشن/خاموش شدن</string>
+  <string name="ipo_title">راه اندازی سريع</string>
+  <string name="ipo_summary_on">غيرفعال کردن راه اندازی سريع</string>
+  <string name="ipo_summary_off">فعال کردن راه اندازی سريع</string>
+  <string name="hotknot_explained_description">در زمان تماس صفحه نمایش با یک ابزار دیگر اجازه تبادل اطلاعات داده شود؟</string>
+  <string name="mouse_primary_button_title">جابجایی دکمه های اولیه و ثانویه</string>
+  <string name="mouse_primary_button_dialog_title">جابجایی دکمه اولیه</string>
+  <string name="double_click_title">سرعت دوبار کلیک کنید</string>
+  <string name="test_area">منطقه تست:</string>
+  <string name="double_click_tip">دوبار اینجا را کلیک کنید</string>
+  <!-- MTK Feature MISC end -->
+ 
+  <!-- MTK Bluetooth Settings start -->
+   <string name="bluetooth_advanced_settings">"تنظيمات پيشرفته بلوتوث"</string>
+  <string name="bluetooth_profile_ftp">انتقال فايل</string>
+  <string name="bluetooth_ftp_profile_summary_use_for">استفاده برای انتقال فايل</string>
+  <string name="bluetooth_ftp_profile_summary_connected">"به انتقال فايل متصل شد"</string>
+  <!-- MTK Bluetooth Settings end -->
+ 
+  <!--MTK DateTime start-->
+   <string name="gps_time_sync_attention_gps_on">دریافت اصلاحی GPS حداکثر 1 دقیقه طول می کشد. علاوه بر آن، ممکن است بدلیل سیگنال محیطی ضعیف، GPS نتواند زمان را ارایه کند.\n\nآیا مطمئنید که می خواهید از زمان ارایه شده توسط GPS استفاده کنید؟</string>
+  <string name="gps_time_sync_attention_gps_off">برای استفاده از زمان ارایه شده توسط GPS ابتدا باید GPS را فعال کنید. سپس دریافت اصلاحی GPS حداکثر 1 دقیقه طول می کشد. علاوه بر آن، ممکن است بدلیل سیگنال محیطی ضعیف، GPS نتواند زمان را ارایه کند. \n\nآیا مطمئنید که می خواهید GPS را فعال کنید و منتظر زمان ارایه شده توسط GPS شوید؟</string>
+  <!--MTK DateTime end-->
+ 
+  <!--MTK DRM settings start -->
+   <string name="drm_settings_title">بازنشانی DRM</string>
+  <string name="drm_settings_summary">تمام مجوزهای DRM را حذف می کند</string>
+  <string name="drm_reset_dialog_msg">این عملیات باعث حذف تمام مجوزهای این دستگاه ها می شود. ادامه می دهيد؟</string>
+  <string name="drm_reset_toast_msg">مجوزها با موفقیت حذف شدند.</string>
+  <!--MTK DRM settings end -->
+ 
+  <!-- MTK APPS settings start -->
+   <string name="launch_main_label">اجرای برنامه</string>
+  <string name="launch_main">برنامه را با فعاليت اصلی اجرا کنيد</string>
+  <string name="launch_activitie">اجرا</string>
+  <string name="move_app_to_where">انتقال به 
+        <xliff:g id="location">%s</xliff:g></string>
+  <!-- MTK APPS settings end -->
+ 
+  <!-- MTK Battery MISC start -->
+   <string name="bg_power_saving_title">ذخیره برق هوشمند آماده باش</string>
+  <!-- MTK Battery MISC end -->
+ 
+  <!-- MTK  Datausage  start -->
+   <string name="mtk_datausage_overview_tab">نمای کلی</string>
+  <string name="mtk_datausage_overview_wifi_today">امروز</string>
+  <string name="mtk_datausage_overview_wifi_total">"مجموع"</string>
+  <string name="mtk_datausage_overview_mobile_title">موبایل</string>
+  <string name="mtk_datausage_overview_mobile_usage"><xliff:g id="actual">%s</xliff:g> خارج از 
+        <xliff:g id="limit">%s</xliff:g></string>
+  <string name="mtk_datausage_overview_mobile_usage_warning">فراتر از محدوده <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%s</xliff:g></string>
+  <string name="data_saving_title">ذخیره سازی اطلاعات</string>
+  <!-- MTK  Dtausage  end -->
+ 
+  <!-- MTK About phone start -->
+   <string name="status_imei_slot1">IMEI (شکاف 1)</string>
+  <string name="status_imei_slot2">IMEI (شکاف 2)</string>
+  <string name="custom_build_version">"نسخه سفارشی"</string>
+  <string name="mota_system_update_summary">"بررسی به روزرسانی سیستم از سرور"</string>
+  <string name="software_updates_more_title">به روز رسانی های نرم افزار</string>
+  <string name="software_updates_more_summary">بررسی برای نسخه جدید نرم افزار</string>
+  <!-- MTK About phone end -->
+ 
+  <!-- MTK sim cards start -->
+   <string name="sim_cards_celluar_data_dialog_title">SIM را برای استفاده از داده های سلولی انتخاب کنید</string>
+  <string name="sim_cards_data_sms_dialog_title">SIM را برای استفاده از پیام های SMS انتخاب کنید</string>
+  <string name="sim_cards_calls_dialog_title">شناسه را برای استفاده برای تماس های تلفنی انتخاب کنید</string>
+  <string name="sim_cards_other_calls_dialog_title">یک شناسه دیگر انتخاب کنید</string>
+  <string name="sim_cards_other_calls_item_title">شناسه دیگر</string>
+  <string name="data_connection_progress_message">"جابجايی سيم کارت حدوداً 10 ثانيه طول می کشد. لطفاً صبر کنيد..."</string>
+  <string name="gemini_sim_mode_progress_activating_message">فعالسازی\u2026</string>
+  <string name="gemini_sim_mode_progress_deactivating_message">غیرفعالسازی\u2026</string>
+  <string name="simui_intenet_call">تماس اینترنتی</string>
+  <!-- MTK sim cards end -->
+ 
+  <!-- MTK SIM Status start -->
+   <string name="imei_information_title">"‏اطلاعات IMEI"</string>
+  <string name="imei_information_summary">"‏اطلاعات مربوط به IMEI"</string>
+  <string name="slot_number">"(شکاف<xliff:g id="SLOT_NUM">%1$d</xliff:g>)"</string>
+  <string name="sim_info_editor_color">"رنگ پس‌زمینه"</string>
+  <string name="sim_cards_notify_title">"سیم‌کارت‌ها عوض شده‌اند"</string>
+  <string name="sim_cards_notify_summary">برای تعيين ترجیحات ضربه بزنید.</string>
+  <string name="no_sim_cards_notify_title">سیم کارت وارد نشده است</string>
+  <string name="cellular_data_notify_title">"داده شبکه تلفن همراه در دسترس نیست"</string>
+  <string name="cellular_data_notify_summary">برای تعیین سیم‌کارت داده ضربه بزنید.</string>
+  <!-- MTK SIM Status end -->
+ 
+  <!-- IMS/SMS Settings start -->
+   <string name="ims_toggle_summary">ارائه سرویس های سیستم فرعی چندرسانه‌ای IP</string>
+  <string name="sms_vibrate_summary">لرزش دستگاه با دریافت sms</string>
+  <!-- IMS/SMS Settings end -->
+    <string name="default_data_switch_err_msg1">امکان جابجایی سیم کارت مورد نظر برای داده های سلولی در حین تماس وجود ندارد.</string>
+  <string name="two_cdma_dialog_msg">شکاف 1 و 2 همزمان از CDMA پشتیبانی نمی کنند.</string>
+  <string name="hetcom_setting_title">دانلود توربو</string>
+</resources>
