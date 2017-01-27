@@ -1,0 +1,19 @@
+WHAT IT DOES?
+=============
+To build IKEv2 Tunnel with peer (e.g. ePDG).
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from L.AOSP:
+libssl
+
+It needs the following library from MTK:
+libcurl (in hardware/mediatek/gps/HAL/libs)
+
+All source/dependency modules of this module will be put in
+openssl_PATH := external/openssl/include
+
+
+HOW TO USE IT?
+==============
+See README_from_strongswan

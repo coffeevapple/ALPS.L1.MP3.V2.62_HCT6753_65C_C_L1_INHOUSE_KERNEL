@@ -1,0 +1,18 @@
+MediaTek Effect Framework
+
+WHAT IT DOES?
+=============
+An jar library used for effect purpose, Camera/Gallery AP especially
+almost these features are implemented via GPU functions
+
+HOW IT WAS BUILT?
+==================
+Effect framework works based on Android Mobile Filter Framework (alps/frameworks/base/media/mca)
+it can be built in AOSP source base
+OUTPUT:
+com.mediatek.effect.jar
+
+HOW TO USE IT?
+==============
+add following tag in AndroidManifest.xml
+<uses-library android:name="com.mediatek.effect" android:required="false"/>

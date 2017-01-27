@@ -1,0 +1,18 @@
+This module is some tools and py scripts for xlog.
+
+This library is pre-built by MediaTek internally.
+
+
+WHAT IT DOES?
+=============
+mtklog-cofnig-xx.prop is default value of mtklog tools
+tags-* is default value of xlog filter
+
+HOW IT WAS BUILT?
+==================
+
+
+HOW TO USE IT?
+==============
+
+

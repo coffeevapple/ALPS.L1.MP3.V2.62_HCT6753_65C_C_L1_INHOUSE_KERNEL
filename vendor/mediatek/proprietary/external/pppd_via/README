@@ -1,0 +1,25 @@
+
+
+pppd_via: a modified pppd for via modem
+
+
+Introduction
+============
+
+pppd_via is a native deamon which is used for EVDO project.
+
+How to build it?
+============
+
+It needs the following library from AOSP:
+
+libcutils libcrypto
+
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/proprietary/hardware/ril/viatelecom/pppd_via' folder.
+
+HOW TO USE IT?
+==============
+it will be called by property---ctl.start pppd_via ril sets.
+vendor/mediatek/proprietary/hardware/ril/viatelecom/via_init_files/82C_PHONE/init.via.rc will create pppd_via service. After ril has created file---/data/pppd_via/options, it will be called to start

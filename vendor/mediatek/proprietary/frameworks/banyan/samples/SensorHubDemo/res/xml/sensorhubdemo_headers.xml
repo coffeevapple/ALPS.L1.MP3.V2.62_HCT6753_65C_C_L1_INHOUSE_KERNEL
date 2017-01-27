@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:id="@+id/pickup_switch"
+        android:title="@string/pickup"
+        android:summary="@string/summary_pickup"/>
+    <header
+        android:id="@+id/shake_switch"
+        android:title="@string/shake"
+        android:summary="@string/summary_shake"/>
+    <header
+        android:id="@+id/face_down_switch"
+        android:title="@string/face_down"
+        android:summary="@string/summary_face_down"/>
+    <header
+        android:id="@+id/in_pocket_switch"
+        android:title="@string/in_pocket"
+        android:summary="@string/summary_in_pocket"/>
+    <header
+        android:id="@+id/pedometer_switch"
+        android:title="@string/pedometer"
+        android:summary="@string/summary_pedometer"/>
+    <header
+        android:id="@+id/user_activity_switch"
+        android:title="@string/user_activity"
+        android:summary="@string/summary_user_activity"/>
+</preference-headers>

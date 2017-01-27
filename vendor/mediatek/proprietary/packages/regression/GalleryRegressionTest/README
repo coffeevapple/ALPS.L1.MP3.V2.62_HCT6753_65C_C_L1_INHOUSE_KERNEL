@@ -1,0 +1,5 @@
+Regression test for Gallery App.
+
+HOW TO RUN IT?
+==============
+adb shell am instrument -w com.mediatek.gallery3d.regressiontest/Gallery2RegressionTestRunner

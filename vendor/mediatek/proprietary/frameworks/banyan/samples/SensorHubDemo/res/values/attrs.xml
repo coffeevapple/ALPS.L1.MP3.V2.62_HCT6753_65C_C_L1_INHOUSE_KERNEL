@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ImageSwitch">
+        <attr name="android:textOn"/>
+        <attr name="android:textOff"/>
+        <attr name="android:switchMinWidth"/>
+        <attr name="android:thumbTextPadding"/>
+        <attr name="android:thumb"/>
+    </declare-styleable>
+
+</resources>

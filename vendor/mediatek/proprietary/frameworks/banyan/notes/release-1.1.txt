@@ -1,0 +1,42 @@
+This is an update release of MediaTek SDK based on Android Lollipop.
+
+Revision Date
+~~~~~~~~~~~~
+January 2015
+
+Packages
+~~~~~~~~~~~~
+mediatek_android_sdk_api-21.4.1.zip
+ * emulator - Linux and Windows executables.
+ * images - Images needed by emulator.
+ * libs - API libraries.
+ * samples - API sample applications.
+ * skins - 720p / 1080p skin for emulator.
+
+mediatek_android_sdk_tools-21.4.2.1.zip
+ * ddms-linux-x86_64 - MediaTek customized DDMS (Linux version)
+ * ddms-win - MediaTek customized DDMS (Windows version)
+
+MediaTek SDK API (up to Level 4)
+~~~~~~~~~~~~
+ * API Level Version Check
+ * Multi-SIM Telephony
+ * Audio / Video
+ * Camera MAV
+ * HotKnot
+ * Portrait Enhancements
+ * Image Transformation
+ * Gesture
+ * Sensor hub
+ * Voice Interface Extension
+
+Changes
+~~~~~~~~~~~~
+ * MediaTek Emulator updated to Android 5.0 (Lollipop)
+ * MediaTek SDK API updated to Level 4, new APIs:
+   - Sensor hub
+   - Voice Interface Extension
+   - Camera MAV
+ * New App Samples added
+   - SensorHubDemo
+   - VoiceExtensionDemo

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SensorHub Demo</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="pickup">Pickup Detection</string>
+    <string name="shake">Shake Detection</string>
+    <string name="face_down">Face Down Detection</string>
+    <string name="in_pocket">In Pocket Detection</string>
+    <string name="pedometer">Pedometer</string>
+    <string name="user_activity">User Activity Detection</string>
+
+    <string name="summary_pickup">Play a sound when bringing the device close to your ear</string>
+    <string name="summary_shake">Play a sound when shaking the device</string>
+    <string name="summary_face_down">Play a sound when putting the device face down</string>
+    <string name="summary_in_pocket">Play a sound when putting the device into pocket</string>
+    <string name="summary_pedometer">Play a sound when step count larger is than 10</string>
+    <string name="summary_user_activity">Play a sound when you are on foot</string>
+
+    <string name="sensorhub_not_available">The SensorHub feature is not available on your platform.</string>
+</resources>

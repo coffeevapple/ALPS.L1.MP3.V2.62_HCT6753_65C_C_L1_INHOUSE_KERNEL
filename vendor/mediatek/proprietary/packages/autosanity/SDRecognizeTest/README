@@ -1,0 +1,17 @@
+SDRecognizeTest.py is a test script for the internal and external storage
+function.
+
+WHAT IT DOES?
+=============
+SDRecognizeTest.py check the storage function by writing a file to /sdcard and
+/storage/sdcad1.
+
+HOW IT WAS BUILT?
+==================
+SDRecognizeTest.py is declared as ETC module class and
+will be put in /system/etc/ folder.
+
+HOW TO USE IT?
+==============
+Usage:
+  python SDRecognizeTest.py -s <SERIAL>

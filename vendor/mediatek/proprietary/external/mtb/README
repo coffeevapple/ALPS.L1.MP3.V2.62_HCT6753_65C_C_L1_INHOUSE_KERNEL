@@ -1,0 +1,28 @@
+This module creates the MAGE (MediaTek Android Graphics Environment) A3M 3D
+graphics engine libraries.
+
+This library is pre-built by MediaTek internally.
+
+
+WHAT IT DOES?
+=============
+MTB(MediaTek Trace Bridge) can provide one common interfarce for several perforamnce test tool ex. systrace, MMprofile,MET.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from :
+
+libcutils libutils 
+
+HOW TO USE IT?
+==============
+
+Total API:
+ATRACE_NAME   description: trace the beginning and end of the current scope, param(name) is the tracing string flag.
+ATRACE_CALL   description: It's an ATRACE_NAME that uses the current function name as the tracing string.
+ATRACE_BEGIN  description: trace the beginning of the current scope, param(name) is the tracing string flag.
+ATRACE_END    description: trace the end of the current scope.
+ATRACE_ASYNC_BEGIN  description:trace the beginning of an asynchrouous event, param(name and cookie) used to begin an event must be used to end it.
+ATRACE_ASYNC_END    description:trace the end of an asynchrouous event, this should be have a corresponding ATRACE_ASYNC_BEGIN.
+ATRACE_INIT         description: trace an int counter value , param(name) is used to identify the counter.
+.

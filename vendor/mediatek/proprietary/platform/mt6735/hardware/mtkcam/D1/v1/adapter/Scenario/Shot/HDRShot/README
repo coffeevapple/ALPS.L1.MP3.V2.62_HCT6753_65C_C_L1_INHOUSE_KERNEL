@@ -1,0 +1,28 @@
+Library of MTK camera features, high dynamic range
+
+This library is pre-built by MediaTek internal.
+
+
+WHAT IT DOES?
+=============
+libcam.camadapter.scenario.shot.hdrshot implemented the HAL layer 
+of MTK HDR feature.  
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+libstdc++
+libc
+
+
+and the following libs from MediaTek:
+libhardware
+libfeatureiopipe
+
+
+HOW TO USE IT?
+==============
+
+Provide the API for camera HAL to control the camera HDR features.
+
+All the source code of this library were written by MediaTek co..

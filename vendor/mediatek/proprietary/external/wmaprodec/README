@@ -1,0 +1,24 @@
+Library of wmapro decode swip
+
+This library is pre-built by MediaTek internal.
+
+
+WHAT IT DOES?
+=============
+libwmaprodec_mtk.a contains MediaTek developed wma pro decoding related pre- and post-processing modules.  
+Without them, wma pro decoding will not work
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+
+and the following libs from MediaTek:
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/proprietary/external/wmaprodec/' folder.
+
+HOW TO USE IT?
+==============
+use wmapro decode api.
+
+All the source code of this library were written by MediaTek co..

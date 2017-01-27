@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EpdgTestApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="conn_status">Connection status</string>
+    <string name="add_pdn">Add PDN</string>
+    <string name="em_setting">EM Setting</string>
+    <string name="ping_command">Ping command</string>
+    <string name="send">Send</string>
+    <string name="ims">IMS</string>
+    <string name="toggle_connect">Connect</string>
+    <string name="toggle_disconnect">Disconnect</string>
+    <string name="command_result">Command Result</string>
+    <string name="outputtitle">Output</string>
+    <string name="ping_pcscf">Ping Pcscf</string>
+    <string name="ping_mms">Ping MMS</string>
+
+    <string name="epdg_functions" translatable="false">EPDG Functions</string>
+    <string name="epdg_handoff" translatable="false">EPDG Handoff Criteria</string>
+    <string name="epdg_parameters" translatable="false">EPDG parameters</string>
+    <string name="epdg_profile_setting" translatable="false">EPDG Profile Setting</string>
+    <string name="epdg_profile" translatable="false">EPDG Profile:</string>
+    <string name="epdg_wfc_setting" translatable="false">Wi-Fi Calling Setting:</string>
+    <string name="epdg_apn_type" translatable="false">APN Type:</string>
+    <string name="epdg_auth_type" translatable="false">IKEv2 Auth Type:</string>
+    <string name="epdg_sim_index" translatable="false">SIM ID:</string>
+    <string name="epdg_m_prot" translatable="false">Mobility Protocol:</string>
+    <string name="epdg_fqdn" translatable="false">ePDG FQDN:</string>
+    <string name="epdg_cert_path" translatable="false">Certificate Path:</string>
+    <string name="epdg_ikea_algo" translatable="false">IKE Algorithm:</string>
+    <string name="epdg_esp_algo" translatable="false">ESP Algorithm:</string>
+    <string name="epdg_rove_in" translatable="false">Wi-Fi Roll In RSSI (dbm):</string>
+    <string name="epdg_rove_out" translatable="false">Wi-Fi Roll Out RSSI (dbm):</string>
+    <string name="epdg_set_all" translatable="false">Apply All</string>
+    <string name="dun_apn_button" translate="false">Config APN</string>
+    <string name="sys_set_button" translate="false">Set</string>
+    
+</resources>

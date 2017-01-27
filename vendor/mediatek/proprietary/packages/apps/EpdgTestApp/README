@@ -1,0 +1,25 @@
+WHAT IT DOES?
+=============
+EpdgTestApp is android application developed to test EPDG functionality
+It is convenient for RD/QA to test EPDG functionality.
+
+HOW IT WAS BUILT?
+==================
+
+It needs the following library from AOSP:
+liblog
+
+It needs the following libs from MediaTek:
+libpingipv4.so
+
+command to build EpdgTestApp.apk and libpingipv4.so:
+mmm vendor/mediatek/proprietary/packages/apps/EpdgTestApp/
+
+
+HOW TO USE IT?
+==============
+Three tabs, Connection , Configuration and Handoff.
+Configuration and Handoff tabs allow you to configure EPDG parameters.
+Connection tab allow to establish (IMS/MMS)PDN connection over EPDG and allow you to ping PCSCF/MMSC server
+It will display connection status of PDN connection.
+Multiple PDN connection can abe build using Add PDN button to add multiple pdn item.
