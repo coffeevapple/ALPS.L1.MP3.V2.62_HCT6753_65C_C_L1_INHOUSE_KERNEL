@@ -92,6 +92,8 @@ signing_key.priv
 signing_key.x509
 x509.genkey
 
+/build.log
+
 /abi
 /art
 /bionic
@@ -111,13 +113,18 @@ x509.genkey
 /libnativehelper
 /md32
 /ndk
+/out
 #/packages
 /pdk
 /prebuilts
 /sdk
 /system
 /tools
-/vendor
+#/vendor
+/vendor/arm
+/vendor/dolby
+/vendor/haocheng
+#/vendor/mediatek
 
 /bootable/bootloader/lk/dev/logo/cu_lte_wqhd/cu_lte_wqhd_kernel.bmp
 /bootable/bootloader/lk/dev/logo/cu_lte_wqhd/cu_lte_wqhd_uboot.bmp
