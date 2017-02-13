@@ -120,6 +120,7 @@ $(info MTK_IN_HOUSE_TEE_SUPPORT is $(MTK_IN_HOUSE_TEE_SUPPORT))
 $(info MTK_MACH_TYPE is $(MTK_MACH_TYPE))
 $(info MTK_TEE_DRAM_SIZE is $(MTK_TEE_DRAM_SIZE))
 
+ifeq (no,yes)
 ifeq ($(MTK_IN_HOUSE_TEE_SUPPORT),yes)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 trustzone: $(PRODUCT_OUT)/tz.img
@@ -130,10 +131,10 @@ trustzone:
 else
 ifeq ($(MTK_IN_HOUSE_TEE_SUPPORT),yes)
 # export for build.sh
-#include $(MTK_PATH_CUSTOM)/trustzone/custom.mk
+include $(MTK_PATH_CUSTOM)/trustzone/custom.mk
 #export TEE_DRAM_SIZE:=$(MEMSIZE)
 #export MTEE_CUSTOM_CFG_DIR:=$(MTK_PATH_CUSTOM)/trustzone
-export HOST_OS
+#export HOST_OS
 TRUST_TEE_IMAGES := $(OUT_DIR)/target/product/$(MTK_PROJECT_NAME)/trustzone/bin/tz.img
 trustzone: 
 else # for TRUSTONIC_TEE_SUPPORT
@@ -158,4 +159,5 @@ endif
 
 droidcore: trustzone
 
+endif
 endif
