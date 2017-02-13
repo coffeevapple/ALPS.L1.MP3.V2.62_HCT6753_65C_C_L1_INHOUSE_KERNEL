@@ -44,7 +44,8 @@ LOCAL_SRC_FILES := mtb.cpp \
                    mmp_wfd.c \
                    mmp_hash.c
 
-LOCAL_CFLAGS    := -DMTB_SUPPORT  # -DMET_USER_EVENT_SUPPORT
+LOCAL_CFLAGS    := -DMTB_SUPPORT
+# -DMET_USER_EVENT_SUPPORT
 LOCAL_SHARED_LIBRARIES:= \
                          libcutils \
                          libutils 

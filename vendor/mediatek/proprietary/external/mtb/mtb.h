@@ -41,14 +41,14 @@
 extern "C" {
 #endif
 
-#ifndef MTB_SUPPORT
-#define mtb_trace_init(type, tag) 
-#define mtb_trace_update_types()
-#define mtb_trace_begin(tag, name, pid, direct) 
-#define mtb_trace_end(tag, name, pid, direct) 
-#define mtb_trace_oneshot(tag, type, name, pid) 
-#define mtb_trace_get_types()
-#else
+//#ifndef MTB_SUPPORT
+//#define mtb_trace_init(type, tag) 
+//#define mtb_trace_update_types()
+//#define mtb_trace_begin(tag, name, pid, direct) 
+//#define mtb_trace_end(tag, name, pid, direct) 
+//#define mtb_trace_oneshot(tag, type, name, pid) 
+//#define mtb_trace_get_types()
+//#else
 int mtb_trace_init(uint32_t type, uint64_t tag);
 void mtb_trace_update_types();
 int mtb_trace_begin(uint64_t tag, const char *name, uint32_t pid, bool direct=true);
@@ -56,7 +56,7 @@ int mtb_trace_end(uint64_t tag, const char *name, uint32_t pid, bool direct=true
 int mtb_trace_oneshot(uint64_t tag, uint32_t type, const char *name, uint32_t pid);
 uint32_t mtb_trace_get_types();
 uint64_t mtb_trace_get_atags();
-#endif
+//#endif
 
 #ifdef __cplusplus
 }

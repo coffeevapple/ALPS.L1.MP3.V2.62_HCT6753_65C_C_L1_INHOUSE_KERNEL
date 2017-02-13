@@ -35,7 +35,7 @@
 
 
 
-#ifdef MTB_SUPPORT
+//#ifdef MTB_SUPPORT
 #define LOG_TAG "MediaTekTraceBridge"
 #include <sys/ioctl.h>
 #include <fcntl.h>
@@ -353,4 +353,4 @@ static void mtb_atrace_init()
     ::android::add_sysprop_change_callback(mtb_trace_update_types, 0);
 }
 
-#endif
+//#endif
