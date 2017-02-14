@@ -1,0 +1,40 @@
+# ==============================================
+# Policy File of /system/bin/volte_wfca Executable File 
+
+# ==============================================
+# Type Declaration
+# ==============================================
+type volte_wfca, domain;
+type volte_wfca_exec, exec_type, file_type;
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+#permissive volte_wfca;
+init_daemon_domain(volte_wfca)
+
+# Date : WK14.42
+# Operation : Migration 
+# Purpose : for WFCA send RTP/RTCP
+allow volte_wfca netd:unix_stream_socket connectto;
+allow volte_wfca socket_device:sock_file {create write unlink};
+allow volte_wfca socket_device:dir {write remove_name add_name};
+allow volte_wfca self:capability { setuid setgid };
+allow volte_wfca self:udp_socket { create write bind read setopt ioctl getattr shutdown };
+allow volte_wfca node:udp_socket node_bind;
+allow volte_wfca port:udp_socket name_bind;
+allow volte_wfca fwmarkd_socket:sock_file write;
+allow volte_wfca system_file:file execute_no_trans;
+
+# Date : 2015/03/27
+# Operation : Migration
+# Purpose : for access ccci device
+allow volte_wfca ccci_device:chr_file { read write open ioctl };
+
+# Date : 2015/06/25
+# Purpose : for UA socket pass
+allow volte_wfca volte_ua:fd use;
+allow volte_wfca volte_ua:udp_socket {read write setopt getattr getopt shutdown};
+
+# Purpose : for WakeUpLock
+allow volte_wfca sysfs_wake_lock:file { read write open }; 

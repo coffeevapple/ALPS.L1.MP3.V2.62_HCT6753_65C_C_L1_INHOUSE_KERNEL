@@ -1,0 +1,11 @@
+#via_ets,adb,acm
+on property:ro.boot.usbconfig=0
+    write /sys/class/android_usb/android0/iSerial $ro.serialno
+    write /sys/class/android_usb/android0/enable 0
+    write /sys/class/android_usb/android0/idVendor 0e8d
+    write /sys/class/android_usb/android0/idProduct 2035
+    write /sys/class/android_usb/android0/f_acm/instances 1
+    write /sys/class/android_usb/android0/functions via_ets,adb,acm
+    write /sys/class/usb_rawbulk/ets/enable 1
+    write /sys/class/android_usb/android0/enable 1
+    start adbd
