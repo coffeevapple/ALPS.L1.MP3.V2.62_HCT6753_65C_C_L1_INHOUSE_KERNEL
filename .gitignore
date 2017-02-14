@@ -103,7 +103,7 @@ x509.genkey
 /dalvik
 /developers
 /development
-/device
+#/device
 /docs
 /external
 #/frameworks
